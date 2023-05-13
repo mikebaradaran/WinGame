@@ -1,0 +1,13 @@
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\bin\Debug\WinGame2.exe.config
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\bin\Debug\WinGame2.exe
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\bin\Debug\WinGame2.pdb
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.csprojAssemblyReference.cache
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.Form1.resources
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.Properties.Resources.resources
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.csproj.GenerateResource.cache
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.csproj.CoreCompileInputs.cache
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.exe
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.pdb
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.Form2.resources
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame3.Form3.resources
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.v4_Shape.Form4.resources
