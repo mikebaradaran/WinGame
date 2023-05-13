@@ -11,3 +11,4 @@ C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.pdb
 C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.Form2.resources
 C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame3.Form3.resources
 C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.v4_Shape.Form4.resources
+C:\Users\mikeb\source\repos\WinGame2\WinGame2\obj\Debug\WinGame2.v5_enum.Form5.resources

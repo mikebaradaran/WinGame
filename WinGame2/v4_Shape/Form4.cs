@@ -6,7 +6,6 @@ namespace WinGame2.v4_Shape
 {
     public partial class Form4 : Form
     {
-
         World world = new World(new Rectangle(20, 20, 500, 400));
         public Form4()
         {
