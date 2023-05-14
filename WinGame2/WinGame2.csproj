@@ -86,11 +86,11 @@
     </Compile>
     <Compile Include="v5_enum\Shape.cs" />
     <Compile Include="v5_enum\World.cs" />
-    <Compile Include="v6_2PerPage\Form5.cs">
+    <Compile Include="v6_2PerPage\Form6.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="v6_2PerPage\Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="v6_2PerPage\Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
     <Compile Include="v6_2PerPage\Shape.cs" />
     <Compile Include="v6_2PerPage\World.cs" />
@@ -118,8 +118,8 @@
     <EmbeddedResource Include="v5_enum\Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="v6_2PerPage\Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="v6_2PerPage\Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
