@@ -24,8 +24,6 @@ namespace WinGame2.TwoPerPape
 
         public void moveDraw(Graphics g)
         {
-            //g.Clear(Color.AntiqueWhite);
-
             g.FillRectangle(Brushes.Red, bounds);
 
             foreach (var ball in balls)

@@ -16,11 +16,12 @@ namespace WinGame2.TwoPerPape
             InitializeComponent();
         }
 
-        World currentWorld;
 
         private void Form6_Load(object sender, EventArgs e)
         {
             this.DoubleBuffered = true;
+            World currentWorld = worlds[0];
+
             this.MouseDown += (s, me) =>
             {
                 currentWorld = getCurrentWorld(me.X, me.Y);
@@ -47,11 +48,20 @@ namespace WinGame2.TwoPerPape
             Timer t = new Timer();
             t.Interval = 50;
 
-            t.Tick += (s, ev) =>  { this.Invalidate(); };
+            t.Tick += (s, ev) => { this.Invalidate(); };
 
             foreach (var world in worlds)
             {
-                this.Paint += (s, ev) => { world.moveDraw(ev.Graphics); };
+                this.Paint += (s, ev) =>
+                {
+                    world.moveDraw(ev.Graphics);
+                    Rectangle rec = currentWorld.bounds;
+                    for (int i = 0, borderWidth=3; i < borderWidth; i++)
+                    {
+                        ev.Graphics.DrawRectangle(Pens.Black, rec);
+                        rec.Offset(1, 1);
+                    }
+                };
             }
             t.Start();
         }
