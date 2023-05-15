@@ -17,9 +17,10 @@ namespace WinGame2.v5_enum
             this.rec = rec;
             this.dirX = dirX;
             this.dirY = dirY;
-            Type = type;
+            this.Type = type;
         }
-        public Shape(Rectangle rec, int dirX, int dirY) : this(rec, dirX, dirY, ShapeType.Rectangle)
+        public Shape(Rectangle rec, int dirX, int dirY) 
+            : this(rec, dirX, dirY, ShapeType.Rectangle)
         {
         }
 

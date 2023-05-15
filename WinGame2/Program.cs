@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using WinGame2.TwoPerPape;
 using WinGame2.v4_Shape;
 using WinGame2.v5_enum;
+using WinGame2.v7;
 
 namespace WinGame2
 {
@@ -13,7 +14,7 @@ namespace WinGame2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form6());
+            Application.Run(new Form1());
         }
     }
 }

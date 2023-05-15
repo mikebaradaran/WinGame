@@ -7,10 +7,13 @@ namespace WinGame3
     public partial class Form3 : Form
     {
         BallsManager ballsManager = new BallsManager();
+
         public Form3()
         {
             InitializeComponent();
         }
+
+
 
         private void Form3_Load(object sender, EventArgs e)
         {
