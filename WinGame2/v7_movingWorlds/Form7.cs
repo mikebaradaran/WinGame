@@ -12,12 +12,11 @@ namespace WinGame2.v7
         {
             InitializeComponent();
             worlds = new World[]{
-                new World(new Rectangle(2, 20, 300, 200), 1, 1, ClientRectangle),
-                new World(new Rectangle(310, 20, 300, 200), 1, 1, ClientRectangle),
-                new World(new Rectangle(50, 250, 300, 200), 1, 1, ClientRectangle)
-        };
+                new World(new Rectangle(2, 20, 200, 200), 3, 3, ClientRectangle),
+                new World(new Rectangle(310, 20, 100, 200), 1, 2, ClientRectangle),
+                new World(new Rectangle(50, 250, 300, 100), 2, 1, ClientRectangle)
+            };
         }
-
 
         private void Form6_Load(object sender, EventArgs e)
         {
@@ -34,16 +33,16 @@ namespace WinGame2.v7
                 if (ev.KeyCode == Keys.Left)
                 {
                     if (ev.Control)
-                        world.bounds.Width -= 10;
+                        world.rec.Width -= 10;
                     else
-                        world.bounds.X -= 10;
+                        world.rec.X -= 10;
                 }
                 else if (ev.KeyCode == Keys.Right)
                 {
                     if (ev.Control)
-                        world.bounds.Width += 10;
+                        world.rec.Width += 10;
                     else
-                        world.bounds.X += 10;
+                        world.rec.X += 10;
                 }
             };
 
@@ -65,7 +64,7 @@ namespace WinGame2.v7
 
         private void drawBorder(World currentWorld, Graphics g)
         {
-            Rectangle rec = currentWorld.bounds;
+            Rectangle rec = currentWorld.rec;
             for (int i = 0, borderWidth = 3; i < borderWidth; i++)
             {
                 g.DrawRectangle(Pens.Black, rec);
@@ -77,7 +76,7 @@ namespace WinGame2.v7
         {
             foreach (var world in worlds)
             {
-                if (world.bounds.Contains(x, y))
+                if (world.rec.Contains(x, y))
                     return world;
             }
             return worlds[0];
